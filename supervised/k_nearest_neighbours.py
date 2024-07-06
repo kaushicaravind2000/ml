@@ -4,6 +4,15 @@ import math
 
 
 class KNN():
+    """
+    KNN is a simple algorithm used for classification and regression. 
+    It doesn't require traditional training of a model and predicting the tests with the updated weighted matrix.
+    Instead, KNN completely depends on the data corpus that we have. 
+
+    The algorithm simply works by finding the k nearest data points in the training set to a given test point and 
+    makes predictions based on the majority class (for classification) or the average value (for regression) 
+    of those nearest neighbors.
+    """
     def __init__(self, k=6):
         self.k = k
 
