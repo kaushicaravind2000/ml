@@ -1,1 +1,2 @@
 from .logistic_regression import LogisticRegression
+from .k_nearest_neighbours import KNN
